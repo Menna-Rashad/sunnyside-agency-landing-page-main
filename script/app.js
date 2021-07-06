@@ -9,4 +9,13 @@ facebook.addEventListener("mouseover", (e) => {
     "..//images/white social svg/icon-facebook.svg";
 });
 /* TODO: hover effect to change img src to white svg*/
-/* TODO: Menu too T.T*/
+/* TODO: menu displayed none at desktop view*/
+
+/*menu button*/
+
+const menu = document.querySelector(".toggle-button");
+const navbarLinks = document.querySelector(".navbar-links");
+
+menu.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});

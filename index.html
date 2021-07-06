@@ -4,30 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="styles/mobile.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <img src="images/logo.svg" alt="the logo: sunnyside" />
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
+      <nav class="navbar">
+        <div class="brand-title">
+          <img src="images/logo.svg" alt="the logo: sunnyside" />
+        </div>
+        <button class="toggle-button">
+          <img src="images/icon-hamburger.svg" alt="menu bar" />
+        </button>
+        <div class="navbar-links active">
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </nav>
       <section>
         <h1>We are creatives</h1>

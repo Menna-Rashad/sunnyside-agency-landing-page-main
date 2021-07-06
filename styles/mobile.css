@@ -51,11 +51,59 @@ header {
 }
 header nav {
   padding: 30px 25px;
-  display: flex;
 }
+
+nav .toggle-button {
+  outline: none;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+
 header nav ul {
+  height: 310px;
+  min-width: 323px;
+  background-color: var(--White);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 100px;
+  right: 25px;
+  left: 25px;
+}
+header nav ul::after {
+  content: "";
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid var(--White);
   height: 0;
-  overflow: hidden;
+  width: 0;
+  position: absolute;
+  top: -25px;
+  right: 0px;
+}
+nav .navbar-links.active {
+  display: none;
+}
+header nav ul li {
+  color: var(--Dark-grayish-blue);
+  padding: 15px 25px;
+}
+header nav ul li:hover {
+  background-color: var(--yellow);
+  border-radius: 50px;
+  color: var(--Very-dark-desaturated-blue);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
 }
 header section {
   margin-top: 55px;
@@ -287,4 +335,45 @@ footer .attribution a {
 }
 footer .attribution a:hover {
   color: var(--White);
+}
+
+/*screen size is 1440 or bigger*/
+@media (min-width: 1440px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li {
+    color: var(--White);
+  }
+  .navbar ul li:hover {
+    background-color: #6fcfff;
+    color: var(--White);
+  }
+  .navbar .toggle-button {
+    display: none;
+  }
+  nav .navbar-links {
+    display: block;
+  }
+  header nav ul {
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+    flex-direction: row;
+    position: static;
+  }
+  header nav ul::after {
+    display: none;
+  }
+  header {
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 800px;
+  }
 }
