@@ -1,47 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-html,
-body {
-  overflow-x: hidden;
-}
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
-:root {
-  /* primary colors */
-  --Soft-red: hsl(7, 99%, 70%);
-  --yellow: hsl(51, 100%, 49%);
-  --Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
-  --Dark-blue-photography-text: hsl(198, 62%, 26%);
-  --Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
-  /* neutral colors */
-  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
-  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
-  --Dark-grayish-blue: hsl(232, 10%, 55%);
-  --Grayish-blue: hsl(210, 4%, 67%);
-  --White: hsl(0, 0%, 100%);
-  /* font families */
-  --ff-secondary: "Barlow", sans-serif;
-  --ff-heading: "Fraunces", serif;
-}
-body {
-  font-size: 18px;
-  font-family: var(--ff-secondary);
-}
-h1,
-h2,
-h3 {
-  font-family: var(--ff-heading);
-  font-weight: 900;
-  text-align: center;
-}
+@import url("root.css");
 header {
   height: 535px;
   background-image: url(../images/mobile/image-header.jpg);
@@ -322,7 +279,12 @@ footer #social {
   width: 165px;
   margin: 0 auto 80px;
 }
-
+footer #social svg {
+  fill: #2c7566;
+}
+footer #social li:hover svg {
+  fill: var(--White);
+}
 footer .attribution {
   text-align: center;
   color: var(--Dark-moderate-cyan-footer);
@@ -335,45 +297,4 @@ footer .attribution a {
 }
 footer .attribution a:hover {
   color: var(--White);
-}
-
-/*screen size is 1440 or bigger*/
-@media (min-width: 1440px) {
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .navbar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar ul li {
-    color: var(--White);
-  }
-  .navbar ul li:hover {
-    background-color: #6fcfff;
-    color: var(--White);
-  }
-  .navbar .toggle-button {
-    display: none;
-  }
-  nav .navbar-links {
-    display: block;
-  }
-  header nav ul {
-    height: auto;
-    background-color: transparent;
-    padding: 0;
-    flex-direction: row;
-    position: static;
-  }
-  header nav ul::after {
-    display: none;
-  }
-  header {
-    background-image: url("../images/desktop/image-header.jpg");
-    height: 800px;
-  }
 }

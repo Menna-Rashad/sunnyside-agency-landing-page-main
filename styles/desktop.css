@@ -1,0 +1,134 @@
+@import url("root.css");
+@media (min-width: 1440px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li {
+    color: var(--White);
+  }
+  .navbar ul li:hover {
+    background-color: var(--White);
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
+    font-weight: bold;
+  }
+  .navbar .toggle-button {
+    display: none;
+  }
+  nav .navbar-links {
+    display: block;
+  }
+  nav .navbar-links.active {
+    display: block;
+  }
+  header nav ul {
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+    flex-direction: row;
+    position: static;
+  }
+  header nav ul::after {
+    display: none;
+  }
+  header {
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 800px;
+  }
+  header section {
+    margin-top: 100px;
+  }
+  header section h1 {
+    font-size: 3.5rem;
+    letter-spacing: 7px;
+    margin-bottom: 75px;
+  }
+
+  /*main section*/
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main div,
+  main article {
+    width: 50%;
+  }
+  div#egg {
+    height: 600px;
+    background-image: url("../images/desktop/image-transform.jpg");
+    order: 2;
+  }
+  div#pinkglass {
+    height: 600px;
+    background: center no-repeat url(../images/desktop/image-stand-out.jpg);
+  }
+  #transform {
+    order: 1;
+  }
+  #transform,
+  #standOut {
+    height: 600px;
+    text-align: left;
+    padding: 165px 155px 145px;
+  }
+  #transform h2,
+  #standOut h2 {
+    text-align: left;
+  }
+  #transform span,
+  #standOut span {
+    margin: 0 auto 0 0;
+    top: -6px;
+    left: -6px;
+  }
+  main #cherry {
+    background: center no-repeat url(../images/desktop/image-graphic-design.jpg);
+    order: 5;
+  }
+  main #orange {
+    background: center no-repeat url(../images/desktop/image-photography.jpg);
+    order: 6;
+  }
+
+  /*reviews section*/
+  #reviews {
+    padding: 150px 0 145px;
+    text-align: center;
+  }
+  #reviews .container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+  }
+  /*images section*/
+
+  #images {
+    flex-wrap: nowrap;
+  }
+  #images #milk,
+  #images #orange,
+  #images #cone,
+  #images #sugar {
+    height: 450px;
+    width: 25%;
+  }
+  #images #milk {
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+  }
+  #images #orange {
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+  }
+  #images #cone {
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+  }
+  #images #sugar {
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+  }
+}
