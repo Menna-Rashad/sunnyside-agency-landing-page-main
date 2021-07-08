@@ -176,7 +176,7 @@ main #cherry {
   color: var(--Dark-desaturated-cyan-graphic-design-text);
   order: 5;
 }
-main #orange {
+main #wholeOrange {
   background: center no-repeat url(../images/mobile/image-photography.jpg);
   background-size: cover;
   color: var(--Dark-blue-photography-text);
@@ -281,6 +281,12 @@ footer #social {
 }
 footer #social svg {
   fill: #2c7566;
+}
+footer .screenReaders-only {
+  font-size: 0;
+  height: 1px;
+  overflow: hidden;
+  display: block;
 }
 footer #social li:hover svg {
   fill: var(--White);
