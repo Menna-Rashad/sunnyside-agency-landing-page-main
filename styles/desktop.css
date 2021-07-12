@@ -5,10 +5,15 @@
     align-items: center;
     justify-content: space-between;
   }
+  .navbar .brand-title img {
+    width: 177px;
+    height: 38px;
+  }
   .navbar ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 510px;
   }
   .navbar ul li {
     color: var(--White);
@@ -42,12 +47,12 @@
     height: 800px;
   }
   header section {
-    margin-top: 100px;
+    margin-top: 90px;
   }
   header section h1 {
     font-size: 3.5rem;
     letter-spacing: 7px;
-    margin-bottom: 75px;
+    margin-bottom: 88px;
   }
 
   /*main section*/
@@ -69,23 +74,35 @@
     background: center no-repeat url(../images/desktop/image-stand-out.jpg);
   }
   #transform {
+    height: 600px;
     order: 1;
+    text-align: left;
+    padding: 165px 113px 145px;
   }
-  #transform,
   #standOut {
     height: 600px;
     text-align: left;
-    padding: 165px 155px 145px;
+    padding: 165px 110px 105px 115px;
   }
   #transform h2,
   #standOut h2 {
     text-align: left;
+    font-size: 2.5em;
+  }
+  #transform p,
+  #standOut p {
+    font-size: 1.1em;
   }
   #transform span,
   #standOut span {
     margin: 0 auto 0 0;
     top: -6px;
     left: -6px;
+  }
+  main .lastTwo p {
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
   }
   main #cherry {
     background: center no-repeat url(../images/desktop/image-graphic-design.jpg);
@@ -98,14 +115,28 @@
 
   /*reviews section*/
   #reviews {
-    padding: 150px 0 145px;
+    padding: 160px 0 145px;
     text-align: center;
+    height: 777px;
+  }
+  #reviews h3#client {
+    font-size: 1.5em;
   }
   #reviews .container {
     flex-direction: row;
     justify-content: space-between;
     width: 1120px;
     margin: 0 auto;
+  }
+  #reviews .card .comment {
+    margin: 65px 0 75px;
+  }
+  #reviews .card .clientName {
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  #reviews .card .clientJob {
+    font-size: 0.7em;
   }
   /*images section*/
 
