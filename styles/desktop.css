@@ -1,5 +1,9 @@
 @import url("root.css");
-@media (min-width: 1440px) {
+@media (min-width: 800px) {
+  #wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
   .navbar {
     display: flex;
     align-items: center;
