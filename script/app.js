@@ -6,4 +6,6 @@ const navbarLinks = document.querySelector(".navbar-links");
 
 menu.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
+  let isExpanded = menu.getAttribute("aria-expanded") === "true";
+  menu.setAttribute("aria-expanded", !isExpanded);
 });
