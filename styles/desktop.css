@@ -22,10 +22,12 @@
   .navbar ul li {
     color: var(--White);
   }
+  .navbar ul li a{
+    color: var(--White);
+  }
   .navbar ul li:hover {
     background-color: var(--White);
     color: var(--Dark-desaturated-cyan-graphic-design-text);
-    font-weight: bold;
   }
   .navbar .toggle-button {
     display: none;
@@ -60,12 +62,12 @@
   }
 
   /*main section*/
-  main {
+  #main {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  main div,
-  main article {
+  #main div,
+  #main article {
     width: 50%;
   }
   div#egg {
@@ -103,16 +105,16 @@
     top: -6px;
     left: -6px;
   }
-  main .lastTwo p {
+  #main .lastTwo p {
     width: 340px;
     margin-right: auto;
     margin-left: auto;
   }
-  main #cherry {
+  #main #cherry {
     background: center no-repeat url(../images/desktop/image-graphic-design.jpg);
     order: 5;
   }
-  main #wholeOrange {
+  #main #wholeOrange {
     background: center no-repeat url(../images/desktop/image-photography.jpg);
     order: 6;
   }

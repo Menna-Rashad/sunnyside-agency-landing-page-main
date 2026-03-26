@@ -49,18 +49,22 @@ nav .navbar-links.active {
   display: none;
 }
 header nav ul li {
-  color: var(--Dark-grayish-blue);
   padding: 15px 25px;
 }
-header nav ul li:hover {
+header nav ul li a{
+  color: var(--Dark-grayish-blue);
+}
+header nav ul li:hover{
   background-color: var(--yellow);
   border-radius: 50px;
-  color: var(--Very-dark-desaturated-blue);
   cursor: pointer;
   text-transform: uppercase;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--ff-heading);
   font-size: 14px;
   font-weight: bold;
+}
+header nav ul li:hover a{
+  color: var(--Very-dark-desaturated-blue);
 }
 header section {
   margin-top: 55px;
@@ -77,7 +81,7 @@ div#arrow {
 }
 
 /*main section*/
-main {
+#main {
   display: flex;
   flex-direction: column;
 }
