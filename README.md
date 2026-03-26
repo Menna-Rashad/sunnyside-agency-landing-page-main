@@ -5,11 +5,11 @@
 ![Lighthouse Audit Results - Sunnyside Agency](./images/lighthouse-results.png)
 
 ## 🌍 Links
-- **Live Site URL:** [https://menna-rashad.github.io/sunnyside-agency-landing-page-main/]
-- **Frontend Mentor Solution:** [https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-SvCbtjFdU]
+- **Live Site URL:** [View Live Site](https://menna-rashad.github.io/sunnyside-agency-landing-page-main/)
+- **Frontend Mentor Solution:** [View Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-SvCbtjFdU)
 
 ## 🎯 Overview
-This is my solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). 
+This is my solution to the [Sunnyside agency landing page Frontend Mentor challenge on GitHub](https://github.com/Menna-Rashad/sunnyside-agency-landing-page-main?tab=readme-ov-file). 
 
 The goal of this challenge was to build a fully responsive landing page and get it looking as close to the provided design as possible, ensuring a seamless user experience across all devices.
 
