@@ -31,4 +31,4 @@ As I completed this challenge using the free tier of Frontend Mentor, I did not 
 ## 👩‍💻 Author
 - GitHub - [Menna Rashad](https://github.com/Menna-Rashad)
 - Frontend Mentor - [@Menna-Rashad](https://www.frontendmentor.io/profile/Menna-Rashad)
-- LinkedIn - [Menna Rashad](www.linkedin.com/in/mennarashad)
+- LinkedIn - [Menna Rashad](https://www.linkedin.com/in/mennarashad)
